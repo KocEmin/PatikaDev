@@ -1,0 +1,14 @@
+Soru 1 : [16,21,11,8,12,22] -> Merge Sort türüne göre aşamalarını yazınız.
+
+Cevap 1: Merge sort a göre işlem yaparken veeirler her seferinde 2 ye bölünerek ilerlenir.
+         En son dizindeki veriler en küçük hale geldiğinde sırayla birşeştirilir.
+              [16,21,11]---[8,12,22]
+           [16,21]--[11]---[8,12]--[22]
+         [16]-[21]--[11]---[8]--[12]-[22]   
+           [16,21]--[11]---[8,12]--[22]
+              [11,16,21]---[8,12,22]
+                 [16,21,11,8,12,22]   
+                 
+Soru 2 : Big-O gösterimini yazınız.
+
+Cevap 2 : O(n logn)
